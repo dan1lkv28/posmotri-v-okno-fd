@@ -257,7 +257,7 @@ ol {
   gap: 30px;
   height: 298px;
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list {
