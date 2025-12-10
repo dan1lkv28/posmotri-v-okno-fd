@@ -1,1 +1,0 @@
-https://github.com/dan1lkv28/posmotri-v-okno-fd
