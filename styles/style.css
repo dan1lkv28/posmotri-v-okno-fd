@@ -54,10 +54,11 @@ ol {
 }
 
 .button {
-  height: 34px;
+  min-height: 34px;
   border: 1px solid #fff;
   padding: 6px 0;
   color: inherit;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -82,7 +83,7 @@ ol {
   outline-offset: 2px;
 }
 
-.preloader-template {
+.preloader {
   position: absolute;
   inset: 0;
   z-index: 0;
@@ -233,7 +234,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 22px;
   width: 100%;
   height: 100%;
 }
@@ -255,15 +256,14 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 298px;
-  overflow: hidden;
+  height: 300px;
   overflow-y: auto;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 22px;
 }
 
 /* Стилизация карточек */
@@ -279,6 +279,7 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 196px;
   overflow: hidden;
   color: #fff;
   font-family: "Oswald", sans-serif;
@@ -300,8 +301,8 @@ ol {
   line-height: 16.2px;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 .content__video-card-description-container {
